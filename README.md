@@ -2,7 +2,7 @@
 
 **One computer, multiple players. One player, multiple computers. — v0.1.0 Beta**
 
-Zelda Save Manager is an independent fan-made Windows utility for *The Legend of Zelda: Ocarina of Time*, developed around a Squadala! multiplayer installation. It was originally created so multiple children or family members could each have their own saves on one computer. It also supports accessing a player's profiles and saves from multiple Windows computers through a shared network folder. Randomizer tracking and hints are additional features.
+Zelda Save Manager is an independent fan-made Windows utility for *The Legend of Zelda: Ocarina of Time*, originally developed for Longshot and subsequently used with Squadala!, which retains the Longshot file structure. It was originally created so multiple children or family members could each have their own saves on one computer. It also supports accessing a player's profiles and saves from multiple Windows computers through a shared network folder. Randomizer tracking and hints are additional features.
 
 **Release status:** **v0.1.0-beta.1 is now available** as a Windows pre-release. [Download the beta ZIP](https://github.com/RuneForgeTools/ZeldaSaveManager-Releases/releases/download/v0.1.0-beta.1/ZeldaSaveManager_v0.1.0-beta.1_Windows.zip) or view the [release notes](https://github.com/RuneForgeTools/ZeldaSaveManager-Releases/releases/tag/v0.1.0-beta.1).
 
@@ -21,21 +21,21 @@ Set up a shared network folder that each Windows computer can access to use the 
 - Create, edit, delete, and switch player profiles
 - Manage separate game saves and supported settings for each player
 - Access profiles and saves from multiple Windows computers using a configured shared network folder
-- Configure supported Squadala! multiplayer and randomizer settings
+- Configure supported Longshot and Squadala! multiplayer and randomizer settings
 - Import compatible spoiler logs and track items and progressive upgrades
 - Track Small Keys together in the grouped Small Keys tracker
 - Reveal individual item hints in two stages: general area and specific check
 - Use maps and a progression advisor to help plan your next steps
 - Customize profiles with Zelda-themed icons and supported multiplayer options
 
-**Compatibility:** Developed using Squadala! (a Longshot-based multiplayer setup). Standalone Longshot and Ship of Harkinian compatibility have not been independently verified. Some features depend on the installed Squadala! version and randomizer configuration.
+**Compatibility:** Originally used with Longshot, then with Squadala! using the Longshot file structure. Both are supported targets based on these installations; compatibility with every version and configuration is not guaranteed. Standalone Ship of Harkinian has not been independently verified. Some features depend on the installed version and randomizer configuration.
 
 ## Installation
 
 1. Download the Windows ZIP under **Assets** on the [Releases](../../releases) page.
 2. Extract the entire ZIP into a folder.
 3. Keep the extracted files together and launch Zelda Save Manager.
-4. Point the application to your separately installed Squadala! setup if prompted.
+4. Point the application to your separately installed Longshot or Squadala! setup if prompted.
 5. Create or select a player profile.
 
 Some tracker functions require **Python 3.10 or newer with Tkinter**. Back up important saves before making changes. For network profile sharing, ensure each computer can access the same shared folder.
@@ -44,7 +44,7 @@ Some tracker functions require **Python 3.10 or newer with Tkinter**. Back up im
 
 ## Bug reports and feedback
 
-Use [Issues](../../issues) to report problems. Include what happened, steps to reproduce, relevant error messages or screenshots, Windows version, and Squadala! version/configuration. Do not upload copyrighted game files or personal save data.
+Use [Issues](../../issues) to report problems. Include what happened, steps to reproduce, relevant error messages or screenshots, Windows version, and Longshot or Squadala! version/configuration. Do not upload copyrighted game files or personal save data.
 
 ## Support development
 
