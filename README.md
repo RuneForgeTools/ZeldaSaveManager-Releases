@@ -1,10 +1,10 @@
 # Zelda Save Manager
 
-**Free Windows save manager and Longshot randomizer tracker — v0.1.0 Beta preparation**
+**Free Windows save manager and Longshot randomizer tracker — v0.1.0 Beta**
 
 Zelda Save Manager is an independent fan-made Windows utility for organizing player profiles and game saves and tracking progress in *The Legend of Zelda: Ocarina of Time* and compatible Longshot randomizer setups.
 
-**Release status:** The first beta is being prepared. **No public download has been published yet.** When available, download the Windows ZIP from this repository's [Releases](../../releases) page.
+**Release status:** **v0.1.0-beta.1 is now available** as a Windows pre-release. [Download the beta ZIP](https://github.com/RuneForgeTools/ZeldaSaveManager-Releases/releases/download/v0.1.0-beta.1/ZeldaSaveManager_v0.1.0-beta.1_Windows.zip) or view the [release notes](https://github.com/RuneForgeTools/ZeldaSaveManager-Releases/releases/tag/v0.1.0-beta.1).
 
 ## Features
 
@@ -20,7 +20,7 @@ Zelda Save Manager is an independent fan-made Windows utility for organizing pla
 
 Some features depend on your Longshot version and randomizer configuration.
 
-## Install (once a release is available)
+## Installation
 
 1. Download the Windows ZIP under **Assets** on the [Releases](../../releases) page.
 2. Extract the entire ZIP into a folder.
@@ -34,7 +34,7 @@ Some tracker functions require **Python 3.10 or newer with Tkinter**. Back up im
 
 ## Bug reports and feedback
 
-When the beta is available, use [Issues](../../issues) to report problems. Include what happened, steps to reproduce, relevant error messages or screenshots, Windows version, and Longshot version/configuration. Do not upload copyrighted game files or personal save data.
+Use [Issues](../../issues) to report problems. Include what happened, steps to reproduce, relevant error messages or screenshots, Windows version, and Longshot version/configuration. Do not upload copyrighted game files or personal save data.
 
 ## Support development
 
